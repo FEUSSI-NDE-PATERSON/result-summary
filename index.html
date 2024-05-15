@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body class="flex  items-center justify-center h-[100%] mt-[150px]">
+    <div class="flex p-2  shadow-black shadow-2xl  sm:flex-row flex-col ">
+        <div class="flex flex-col items-center w-[280px]  p-[35px] bg-gradient-to-r from-[#2e2be9] to-[#7857ff] rounded-lg">
+          <p class="text-[#c8c7ff] mb-3 font-bold">Your Result</p>
+           <div class=" flex flex-col justify-center items-center rounded-full p-[20px] bg-gradient-to-r from-[#4e21ca] to-[#2421ca] h-[150px] w-[150px]">
+            <p class="text-white font-bold text-2xl">76</p>
+            <p class="text-xs mt-1  text-[tomato]">of 100</p>
+           </div>
+           <p class="text-white mt-2 font-bold my-3">Great</p>
+           <p class="text-sm leading-5 text-[#c8c7ff]">You Scored higher than 65% of the people who have taken these test</p>
+        </div>
+        <div class="p-5 flex flex-col">
+            <p>Summary</p>
+            <div id="result">
+
+            </div>
+            <button class="py-1 px-3 bg-[#303b5a] hover:bg-[#2e2be9] text-white rounded-full">Continue</button>
+        </div>
+    </div>
+
+<script src="index.js"></script>
+</body>
+</html>
